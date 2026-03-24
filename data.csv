@@ -1,0 +1,29 @@
+Date,Time,Food Name,Source,Hunger (before),Satisfaction (after),Type
+Thursday,11:00:00 AM,Ham & Egg Sandwich,homemade,8,5,meal
+Thursday,11:30:00 AM,Tiramisu,bought Cafe La_ON,7,9,dessert
+Thursday,12:30:00 PM,Chicken Burrito,bought Acacia Cafe,6,4,meal
+Thursday,7:00:00 PM,Chicken Pesto Sandwich,homemade,8,6,meal
+Friday,10:00:00 AM,Ham & Egg Sandwich,homemade,7,6,meal
+Friday,12:00:00 PM,Spicy Tuna Onigiri,bought Kibo Cafe,5,8,meal
+Friday,4:00:00 PM,Egg & Lunchmeat Bread,bought Panash Bakery,9,7,meal
+Friday,4:00:00 PM,Mango Cake,bought Panash Bakery,4,8,dessert
+Friday,4:00:00 PM,Latte,homemade,3,7,drink
+Friday,7:00:00 PM,Alfredo Pasta,homemade,5,7,meal
+Monday,10:30:00 AM,Ham & Egg Sandwich,homemade,7,6,meal
+Monday,11:00:00 AM,Latte,homemade,5,8,drink
+Monday,2:00:00 PM,Chicken Pesto Sandwich,homemade,6,8,meal
+Monday,3:00:00 PM,Lindt Ball,bought Nofrills,3,9,snack
+Monday,5:00:00 PM,Beef Brisket Noodles,homemade,7,7,meal
+Monday,7:30:00 PM,Miso Soup,homemade,4,8,meal
+Monday,7:30:00 PM,"Stir-Fried Pork, Mushrooms, Rice",homemade,5,6,meal
+Monday,8:20:00 PM,Blueberry Cream Cheese Bagel,homemade,4,7,snack
+Monday,10:00:00 PM,Chicken Shwarma,bought Osmows,3,9,meal
+Monday,10:30:00 PM,Latte,homemade,2,7,drink
+Tuesday,10:30:00 AM,Ham & Egg Sandwich,homemade,4,6,meal
+Tuesday,2:00:00 PM,Chicken Pesto Sandwich,homemade,5,7,meal
+Tuesday,6:00:00 PM,"Stir-Fried Pork, Mushrooms, Rice",homemade,9,8,meal
+Tuesday,8:00:00 PM,All-Dressed Chips,bought rexall,3,9,snack
+Wednesday,9:00:00 AM,Ham & Egg Sandwich,homemade,5,4,meal
+Wednesday,1:30:00 PM,Chicken Pesto Sandwich,homemade,7,7,meal
+Wednesday,6:30:00 PM,"Stir-Fried Pork, Mushrooms, Rice",homemade,6,8,meal
+Wednesday,7:00:00 PM,All-Dressed Chips,bought rexall,4,9,snack

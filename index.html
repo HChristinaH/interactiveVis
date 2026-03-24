@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A3 Interactive D3 Visualization</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<h2 id="title">What I Ate in A Week...</h2>
+<!-- dropdown menu and the chart area div -->
+<div id="selection-container">
+    <div class="selection-group">
+        <p>Sorted Individually By: </p>
+        <select id="select-order-type">
+            <option value="name">Sort by Food Item</option>
+            <option value="satisfaction">Sort by Satisfaction</option>
+            <option value="hunger">Sort by Hunger</option>
+        </select>
+    </div>
+
+    <div class="selection-group">
+        <p>Colored By: </p>
+        <select id="select-color-type">
+            <option value="satisfaction">Satisfaction</option>
+            <option value="hunger">Hunger</option>
+        </select>
+    </div>
+
+    <div class="selection-group">
+        <p>Grouped By:</p>
+        <select id="select-group-type">
+            <option value="name">Food Item</option>
+            <option value="type">Food type</option>
+            <option value="source">Source</option>
+            <option value="day">Day</option>
+        </select>
+    </div>
+</div>
+
+<div id="chart-area"></div>
+
+<!-- Load JS libraries -->
+<script src="https://unpkg.com/flubber@0.4.2/dist/flubber.min.js"></script>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<script src="main.js"></script>
+<script src="vis.js"></script>
+</body>
+</html>

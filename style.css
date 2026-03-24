@@ -1,0 +1,90 @@
+body, select {
+     font-family: 'Indie Flower', 'Comic Sans MS', cursive;
+}
+
+/* Container styling */
+#selection-container {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin-left: 85px;
+}
+
+/* Individual selection groups */
+.selection-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.selection-group p {
+    margin: 0 0 4px 0;
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+.selection-group select {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s, opacity 0.2s, color 0.2s;
+}
+
+/* Muted style to look "disabled" */
+.selection-group select.muted {
+    opacity: 0.5;
+    color: #999;
+    border-color: #ccc;
+    background-color: #f4f4f4;
+}
+
+/* If muted but focused (clicked), unfade it */
+.selection-group select.muted:focus {
+    opacity: 1;
+    color: #333;
+    border-color: #666;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+}
+
+/* Color hints */
+#select-order-type,
+#select-color-type, 
+#select-group-type {
+    border-color: #ff7f0e; /* blue theme */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    #selection-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+#title {
+    margin-left: 100px;
+    font-family: 'Indie Flower', 'Comic Sans MS', cursive;
+    margin-top: 48px;
+}
+
+#chart-area {
+    background-color: "#1a1a1a";
+}
+
+.group-label {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3a2e2a;
+    background-color: #fff8dc; 
+    border: 1px solid #e0d6c3;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.15); 
+    user-select: none; 
+}
